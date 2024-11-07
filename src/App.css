@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+.head-container{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    padding: 30px;
+}
+.h1-box h1{
+    display: flex;
+    margin: 20px;
+    
+}
+.a-box{
+    margin-left: auto; 
+    display: flex;
+    padding: 25px;
+}
+.a-box a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+.a-box a:hover{
+    color: yellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about-container{
+ background-color: bisque;
+    display: flex;
+    padding: 12%;
+    
+}
+@media screen and (max-width:600px) {
+    .about-container{
+        display: inline-block;
+        
+    }
+   
+}
+.photo{
+    display: inline;
+
+}
+.about-para{
+    font-size: 25px;
+    padding: 30px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.skills-container{
+    background-color: beige;
+    padding: 12%;
+}
+.skills-box p{
+    font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.education-container{
+    background-color: aqua;
+    padding: 25%;
+    font-size: 30px;
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+
+.contact-box{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.contact-box h1{
+    margin: 10px;
+}   
+.contact-box p {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    
 }
+.so-container{
+    display: flex;
+    font-size: 60px;
+    margin-left: auto;
+
+}
+.face-book {
+    padding: 10px;
+    margin-right: 70px;
+    display: flex;
+}
+.insta{
+    padding: 10px;
+    margin-right: 70px;
+    display: flex;
+}
+.wa{
+    padding: 10px;
+    margin-right: 70px;
+    display: flex;
+}
+@media screen and (max-width:600px) {
+    .contact-box{
+        display: inline-block;
+    }
+    
+    }
